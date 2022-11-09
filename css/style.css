@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+main {
+width: 680spx;
+height: 1460px;
+left: 172px;
+border-radius: 40px;
+font-family: "Inter", sans-serif;
+padding: 78px 70px 88px;
+position: absolute;
+font-family: "Inter", sans-serif;
+max-width: 680px;
+min-height: 100vh;
+padding: 78px 70px 88px;
+margin: 0 auto;
+background-color: #FAFAFA;
+background-image: url('../img/design/background-image.svg');
+background-repeat: no-repeat;
+background-position: top 52px right -25px;
+}
+.header {
+position: absolute;
+width: 139px;
+height: 24px;
+left: 70px;
+top: 78px;
+color: #1890FF;
+}
+.header td{
+width: 50%;
+position: absolute;
+font-family: 'Ubuntu';
+font-weight: 500;
+font-size: 16px;
+line-height: 18px;
+}
+.header__logo {
+position: relative;
+padding-left: 34px;
+font-family: "Ubuntu", sans-serif;
+}
+.header__logo svg{  
+position: absolute;
+left: 0;
+top: -4px
+}
+.cta-block h1 {
+position: absolute;
+width: 490px;
+height: 116px;
+left: 0px;
+top: 6px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+margin-top: 178px;
+margin-right: 144.3px;
+margin-left: 71px;
+color: #0C1014;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+margin-bottom: 25px;
+}
+.cta-block p {
+position: absolute;
+width: 500px;
+height: 81px;
+left: 0px;
+top: 147px;
+font-size: 18px;
+line-height: 27px;
+color: #515759;
+margin-top: 178px;
+margin-left: 71px;
+}
+.cta-button {
+font-family: 'Inter';
+line-height: 46px;
+display: inline-block;
+padding: 0 80px;
+margin: 30px 0;
+background-color: #1890FF;
+color: #FFFFFF;
+font-weight: 500;
+font-size: 18px;
+border: 2px solid #1890FF;
+border-radius: 10px;
+margin-top: 375px;
+text-decoration:none;
+-webkit-transition: background-color ease 0.6s, color cubic-bezier(0.08, 1.03, 0.98, 0.71) 0.6s;
+transition: background-color ease 0.6s, color cubic-bezier(0.08, 1.03, 0.98, 0.71) 0.6s;
+}
+.cta-button:hover {
+background-color: transparent;
+color: #1890FF;
+}
+.divider1 {
+margin-top: 20px;
+width:480px;
+Height: 1px;
+opacity: 0.33;
+background: #DFE1E4;
+}
+.divider2 {
+  margin-top: 700px;
+  width:480px;
+  Height: 1px;
+  opacity: 0.33;
+  background: #DFE1E4;
+}
+.advantages {
+  position: absolute;
+  width: 500px;
+  height: 653px;
+  left: 90px;
+  top: 568px;
+  margin-left: 28px; 
+}
+.advantages::before {
+content: "";
+position: absolute;
+height: 2px;
+left: 20px;
+right: 20px;
+top: 0;
+}
+.advantages-table__info {
+padding: 15px 5px;
+}
+.advantages-table__info p {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+}
+.advantages-table__info p:first-child {
+font-style:bold;
+font-family: 'Inter';
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+margin-bottom: 5px;
+}
+.advantages-table td {
+vertical-align: middle;
+}
+.cta-button2 {
+line-height: 40px;
+display: inline-block;
+padding: 0 55px;
+margin: 30px 0;
+background-color: #1890FF;
+color: #fff;
+font-weight: 400px;
+font-size: 18px;
+border: 2px solid #1890FF;
+border-radius: 10px;
+text-decoration:none;
+-webkit-transition: background-color ease 0.6s, color cubic-bezier(0.08, 1.03, 0.98, 0.71) 0.6s;
+transition: background-color ease 0.6s, color cubic-bezier(0.08, 1.03, 0.98, 0.71) 0.6s;
+}
+.cta-button2:hover {
+background-color: transparent;
+color: #1890FF;
+}
+.footer {
+  text-align: center;
+}
+.footer-text{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+text-align: center;
+color: #B1BCC0;
+margin-top: 45px;
+}
+.social-link {
+text-decoration: none;
+ 
+}
+.social-link > svg {
+margin-top: 10px;
+
+margin: 70px;
+}
+.social-link:hover > svg { stroke: #1890FF; fill:#1890FF;
+}
+
