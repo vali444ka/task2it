@@ -6,11 +6,7 @@ height: 1460px;
 left: 172px;
 border-radius: 40px;
 font-family: "Inter", sans-serif;
-padding: 78px 70px 88px;
 position: absolute;
-font-family: "Inter", sans-serif;
-max-width: 680px;
-min-height: 100vh;
 padding: 78px 70px 88px;
 margin: 0 auto;
 background-color: #FAFAFA;
@@ -51,7 +47,6 @@ height: 116px;
 left: 0px;
 top: 6px;
 font-family: 'Inter';
-font-style: normal;
 font-weight: 700;
 font-size: 48px;
 line-height: 58px;
@@ -136,7 +131,7 @@ font-size: 14px;
 line-height: 20px;
 }
 .advantages-table__info p:first-child {
-font-style:bold;
+
 font-family: 'Inter';
 font-weight: 700;
 font-size: 18px;
